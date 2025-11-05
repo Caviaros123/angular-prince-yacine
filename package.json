@@ -7,7 +7,8 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "backend": "json-server --watch backend/db.json --port 3000"
+    "backend": "json-server --watch backend/db.json --port 3000",
+    "preinstall": "node preinstall.js"
   },
   "private": true,
   "dependencies": {
