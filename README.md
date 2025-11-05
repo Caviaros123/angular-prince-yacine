@@ -1,4 +1,4 @@
-# AngularQuiz
+# AngularQuiz | PRINCE THIERRY LOUBAYI MYSSIE & YACINE BOUCENNA
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 19.2.17.
 
