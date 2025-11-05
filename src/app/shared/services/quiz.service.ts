@@ -72,7 +72,7 @@ export class QuizService {
             .get<any[]>(
               `http://localhost:3000/answers?questionId=${question.id}`
             )
-            .subscribe(
+            .subscribe( // TODO: Fix avec les new syntaxe
               (answers: any[]) => {
                 this.quizContent.push({
                   id: question.id,
