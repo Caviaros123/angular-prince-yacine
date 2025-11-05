@@ -1,0 +1,22 @@
+<section class="categories">
+  <h2>Catégories</h2>
+
+  <form class="categories_search">
+    <input
+      type="text"
+      placeholder="Rechercher une catégorie"
+      name="search"
+      [(ngModel)]="searchTerm"
+      (ngModelChange)="onSearchChange()"
+    />
+    <button type="button" class="btn--outline" (click)="resetFilter()">
+      Réinitialiser
+    </button>
+  </form>
+
+  <div class="categories_grid">
+    <div *ngFor="let c of filtered" (click)="selectCategory(c.id)">
+      <app-category-card [category]="c"></app-category-card>
+    </div>
+  </div>
+</section>

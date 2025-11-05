@@ -1,0 +1,21 @@
+.category_card {
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  padding: 12px;
+  cursor: pointer;
+}
+
+.category_card:hover {
+  background: #fafafa;
+}
+
+.category_title {
+  margin: 0 0 6px 0;
+}
+
+.category_description {
+  margin: 0;
+  color: #6b7280;
+}
+
+

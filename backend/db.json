@@ -2,83 +2,53 @@
   "questions": [
     {
       "id": 1,
+      "categoryId": 1,
       "questionLabel": "What is a component in Angular?"
     },
     {
       "id": 2,
-      "questionLabel": "Explain the purpose of the NgModule in Angular."
+      "categoryId": 1,
+      "questionLabel": "What is a directive in Angular?"
     },
     {
       "id": 3,
-      "questionLabel": "How do you create a new Angular application?"
+      "categoryId": 1,
+      "questionLabel": "What is a service in Angular?"
     },
     {
       "id": 4,
-      "questionLabel": "What is data binding in Angular, and what are the different types of data binding?"
+      "categoryId": 1,
+      "questionLabel": "What is a module in Angular?"
     },
     {
       "id": 5,
-      "questionLabel": "Explain the difference between {{}} (interpolation) and [property] (property binding) in Angular templates."
+      "categoryId": 2,
+      "questionLabel": "What is data binding in Angular?"
     },
     {
       "id": 6,
-      "questionLabel": "What is event binding in Angular, and how is it implemented?"
+      "categoryId": 2,
+      "questionLabel": "What is property binding in Angular?"
     },
     {
       "id": 7,
-      "questionLabel": "What is Angular CLI, and how do you use it to generate components?"
+      "categoryId": 1,
+      "questionLabel": "What is event binding in Angular?"
     },
     {
       "id": 8,
-      "questionLabel": "What is a directive in Angular? Can you name some built-in directives?"
+      "categoryId": 3,
+      "questionLabel": "What is Angular CLI used for?"
     },
     {
       "id": 9,
-      "questionLabel": "Explain the purpose of the Angular router and how to configure routes in an Angular application."
+      "categoryId": 4,
+      "questionLabel": "What is the Angular router?"
     },
     {
       "id": 10,
-      "questionLabel": "What is dependency injection in Angular, and why is it important?"
-    },
-    {
-      "id": 11,
-      "questionLabel": "How do you communicate between parent and child components in Angular?"
-    },
-    {
-      "id": 12,
-      "questionLabel": "What is a service in Angular, and when should you use it?"
-    },
-    {
-      "id": 13,
-      "questionLabel": "What is the purpose of the ngFor directive in Angular?"
-    },
-    {
-      "id": 14,
-      "questionLabel": "Explain the concept of modules in Angular and their role in organizing an application."
-    },
-    {
-      "id": 15,
-      "questionLabel": "What is Angular CLI's ng serve command used for?"
-    },
-    {
-      "id": 16,
-      "questionLabel": "What is Angular's two-way data binding, and how does it work?"
-    },
-    {
-      "id": 17,
-      "questionLabel": "What is Angular's trackBy function, and why is it used with ngFor?"
-    },
-    {
-      "id": 18,
-      "questionLabel": "How can you handle HTTP requests in Angular?"
-    },
-    {
-      "id": 19,
-      "questionLabel": "What are Angular pipes, and can you give some examples of built-in pipes?"
-    },
-    {
-      "id": 20,
-      "questionLabel": "Explain the concept of lazy loading in Angular and when it's beneficial."
+      "categoryId": 1,
+      "questionLabel": "How do components communicate?"
     }
   ],
   "answers": [
@@ -493,6 +463,39 @@
       "id": "b99e",
       "username": "toto",
       "password": "toto"
+    }
+  ],
+  "categories": [
+    {
+      "id": 1,
+      "name": "Fundamentaux",
+      "description": "Concepts de base d'Angular"
+    },
+    {
+      "id": 2,
+      "name": "Data Binding",
+      "description": "Interpolation, property et event binding"
+    },
+    {
+      "id": 3,
+      "name": "CLI",
+      "description": "Angular CLI et commandes associées"
+    },
+    {
+      "id": 4,
+      "name": "Routing",
+      "description": "Navigation et configuration des routes"
+    },
+    { "id": 5, "name": "HTTP", "description": "HttpClient et requêtes" },
+    {
+      "id": 6,
+      "name": "Pipes",
+      "description": "Transformation et formatage de données"
+    },
+    {
+      "id": 7,
+      "name": "Performance",
+      "description": "Lazy loading et optimisations"
     }
   ]
 }
