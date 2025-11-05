@@ -13,445 +13,378 @@
     {
       "id": 3,
       "categoryId": 1,
-      "questionLabel": "What is a service in Angular?"
-    },
-    {
-      "id": 4,
-      "categoryId": 1,
       "questionLabel": "What is a module in Angular?"
     },
+
     {
-      "id": 5,
+      "id": 4,
       "categoryId": 2,
       "questionLabel": "What is data binding in Angular?"
     },
-    {
-      "id": 6,
-      "categoryId": 2,
-      "questionLabel": "What is property binding in Angular?"
-    },
+    { "id": 5, "categoryId": 2, "questionLabel": "What is property binding?" },
+    { "id": 6, "categoryId": 2, "questionLabel": "What is event binding?" },
+
     {
       "id": 7,
-      "categoryId": 1,
-      "questionLabel": "What is event binding in Angular?"
-    },
-    {
-      "id": 8,
       "categoryId": 3,
       "questionLabel": "What is Angular CLI used for?"
     },
     {
+      "id": 8,
+      "categoryId": 3,
+      "questionLabel": "Which command generates a component?"
+    },
+    {
       "id": 9,
+      "categoryId": 3,
+      "questionLabel": "Which command starts the dev server?"
+    },
+
+    {
+      "id": 10,
       "categoryId": 4,
       "questionLabel": "What is the Angular router?"
     },
     {
-      "id": 10,
-      "categoryId": 1,
-      "questionLabel": "How do components communicate?"
+      "id": 11,
+      "categoryId": 4,
+      "questionLabel": "How do you define a route?"
+    },
+    {
+      "id": 12,
+      "categoryId": 4,
+      "questionLabel": "How to navigate programmatically?"
+    },
+
+    {
+      "id": 13,
+      "categoryId": 5,
+      "questionLabel": "Which Angular service handles HTTP requests?"
+    },
+    {
+      "id": 14,
+      "categoryId": 5,
+      "questionLabel": "How to perform a GET with HttpClient?"
+    },
+    {
+      "id": 15,
+      "categoryId": 5,
+      "questionLabel": "Where do you handle an Observable response?"
+    },
+
+    {
+      "id": 16,
+      "categoryId": 6,
+      "questionLabel": "What is a pipe in Angular?"
+    },
+    {
+      "id": 17,
+      "categoryId": 6,
+      "questionLabel": "Which built-in pipe formats dates?"
+    },
+    {
+      "id": 18,
+      "categoryId": 6,
+      "questionLabel": "How to create a custom pipe?"
+    },
+
+    { "id": 19, "categoryId": 7, "questionLabel": "What is lazy loading?" },
+    {
+      "id": 20,
+      "categoryId": 7,
+      "questionLabel": "What does trackBy improve?"
+    },
+    {
+      "id": 21,
+      "categoryId": 7,
+      "questionLabel": "What is ChangeDetectionStrategy.OnPush?"
     }
   ],
   "answers": [
     {
       "questionId": 1,
-      "answerLabel": "A reusable building block for the user interface",
+      "answerLabel": "A reusable building block for the UI",
       "isCorrect": true
     },
-    {
-      "questionId": 1,
-      "answerLabel": "A style in Angular",
-      "isCorrect": false
-    },
-    {
-      "questionId": 1,
-      "answerLabel": "A service for handling HTTP requests",
-      "isCorrect": false
-    },
-    {
-      "questionId": 1,
-      "answerLabel": "A routing configuration",
-      "isCorrect": false
-    },
+    { "questionId": 1, "answerLabel": "A CSS class", "isCorrect": false },
+    { "questionId": 1, "answerLabel": "A database table", "isCorrect": false },
+    { "questionId": 1, "answerLabel": "A HTTP client", "isCorrect": false },
+
     {
       "questionId": 2,
-      "answerLabel": "NgModule is used to declare and configure modules in Angular applications.",
+      "answerLabel": "A marker on DOM to change behavior",
       "isCorrect": true
     },
-    {
-      "questionId": 2,
-      "answerLabel": "NgModule is a component in Angular.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 2,
-      "answerLabel": "NgModule is used for data binding in Angular.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 2,
-      "answerLabel": "NgModule is a directive in Angular.",
-      "isCorrect": false
-    },
+    { "questionId": 2, "answerLabel": "A routing config", "isCorrect": false },
+    { "questionId": 2, "answerLabel": "A template file", "isCorrect": false },
+    { "questionId": 2, "answerLabel": "A build tool", "isCorrect": false },
+
     {
       "questionId": 3,
-      "answerLabel": "You can create a new Angular application using the Angular CLI by running 'ng new app-name'.",
+      "answerLabel": "A way to group related features",
       "isCorrect": true
     },
     {
       "questionId": 3,
-      "answerLabel": "You can create a new Angular application by writing HTML and CSS files.",
+      "answerLabel": "A CSS preprocessor",
       "isCorrect": false
     },
+    { "questionId": 3, "answerLabel": "A backend API", "isCorrect": false },
     {
       "questionId": 3,
-      "answerLabel": "You can create a new Angular application using pure JavaScript.",
+      "answerLabel": "A json-server command",
       "isCorrect": false
     },
-    {
-      "questionId": 3,
-      "answerLabel": "You can create a new Angular application using Python.",
-      "isCorrect": false
-    },
+
     {
       "questionId": 4,
-      "answerLabel": "Data binding in Angular is a mechanism for synchronizing data between the component and the view.",
+      "answerLabel": "Sync data between component and view",
       "isCorrect": true
     },
     {
       "questionId": 4,
-      "answerLabel": "Data binding in Angular is used for creating components.",
+      "answerLabel": "Define routes in app",
       "isCorrect": false
     },
     {
       "questionId": 4,
-      "answerLabel": "Data binding in Angular is a routing feature.",
+      "answerLabel": "Inject dependencies",
       "isCorrect": false
     },
-    {
-      "questionId": 4,
-      "answerLabel": "Data binding in Angular is only available for services.",
-      "isCorrect": false
-    },
+    { "questionId": 4, "answerLabel": "Serve the app", "isCorrect": false },
+
     {
       "questionId": 5,
-      "answerLabel": "{{}} (interpolation) is used for displaying dynamic data in the template.",
+      "answerLabel": "Bind a value to an element property",
       "isCorrect": true
     },
     {
       "questionId": 5,
-      "answerLabel": "[property] (property binding) is used for displaying dynamic data in the template.",
+      "answerLabel": "Bind to event output",
       "isCorrect": false
     },
     {
       "questionId": 5,
-      "answerLabel": "{{}} (interpolation) is used for creating CSS styles.",
+      "answerLabel": "Bind CSS class only",
       "isCorrect": false
     },
-    {
-      "questionId": 5,
-      "answerLabel": "[property] (property binding) is used for creating services.",
-      "isCorrect": false
-    },
+    { "questionId": 5, "answerLabel": "Define a module", "isCorrect": false },
+
     {
       "questionId": 6,
-      "answerLabel": "Event binding in Angular is used to capture and respond to user interactions like clicks and keystrokes.",
+      "answerLabel": "Listen to user actions like click",
       "isCorrect": true
     },
     {
       "questionId": 6,
-      "answerLabel": "Event binding in Angular is used for defining component styles.",
+      "answerLabel": "Load modules lazily",
       "isCorrect": false
     },
+    { "questionId": 6, "answerLabel": "Format dates", "isCorrect": false },
     {
       "questionId": 6,
-      "answerLabel": "Event binding in Angular is used for defining routes.",
+      "answerLabel": "Start the dev server",
       "isCorrect": false
     },
-    {
-      "questionId": 6,
-      "answerLabel": "Event binding in Angular is used for dependency injection.",
-      "isCorrect": false
-    },
+
     {
       "questionId": 7,
-      "answerLabel": "Angular CLI (Command Line Interface) is a command-line tool for creating, building, and deploying Angular applications.",
+      "answerLabel": "Scaffold/build/test Angular apps",
       "isCorrect": true
     },
     {
       "questionId": 7,
-      "answerLabel": "Angular CLI is a component in Angular applications.",
+      "answerLabel": "Run database migrations",
       "isCorrect": false
     },
-    {
-      "questionId": 7,
-      "answerLabel": "Angular CLI is a directive in Angular applications.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 7,
-      "answerLabel": "Angular CLI is a service for handling HTTP requests.",
-      "isCorrect": false
-    },
+    { "questionId": 7, "answerLabel": "Start Node REPL", "isCorrect": false },
+    { "questionId": 7, "answerLabel": "Format CSS", "isCorrect": false },
+
     {
       "questionId": 8,
-      "answerLabel": "A directive in Angular is a marker on a DOM element that tells Angular to do something with that element.",
+      "answerLabel": "ng generate component my-comp",
       "isCorrect": true
     },
     {
       "questionId": 8,
-      "answerLabel": "A directive in Angular is a component.",
+      "answerLabel": "ng serve component",
       "isCorrect": false
     },
     {
       "questionId": 8,
-      "answerLabel": "A directive in Angular is a service.",
+      "answerLabel": "ng start component",
       "isCorrect": false
     },
     {
       "questionId": 8,
-      "answerLabel": "A directive in Angular is a module.",
+      "answerLabel": "ng build component",
       "isCorrect": false
     },
+
+    { "questionId": 9, "answerLabel": "ng serve", "isCorrect": true },
+    { "questionId": 9, "answerLabel": "ng run", "isCorrect": false },
+    { "questionId": 9, "answerLabel": "ng start", "isCorrect": false },
+    { "questionId": 9, "answerLabel": "ng dev", "isCorrect": false },
+
     {
-      "questionId": 9,
-      "answerLabel": "The Angular router is a library for navigating between views and components.",
+      "questionId": 10,
+      "answerLabel": "Library for navigating between views",
       "isCorrect": true
     },
-    {
-      "questionId": 9,
-      "answerLabel": "The Angular router is used for handling HTTP requests.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 9,
-      "answerLabel": "The Angular router is used for data binding in Angular.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 9,
-      "answerLabel": "The Angular router is used for event binding in Angular.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 10,
-      "answerLabel": "Dependency injection in Angular is a design pattern used to provide instances of classes with their dependencies.",
-      "isCorrect": true
-    },
-    {
-      "questionId": 10,
-      "answerLabel": "Dependency injection in Angular is a way to inject styles into components.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 10,
-      "answerLabel": "Dependency injection in Angular is a way to create routes in an application.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 10,
-      "answerLabel": "Dependency injection in Angular is used for data binding.",
-      "isCorrect": false
-    },
+    { "questionId": 10, "answerLabel": "HTTP client", "isCorrect": false },
+    { "questionId": 10, "answerLabel": "State manager", "isCorrect": false },
+    { "questionId": 10, "answerLabel": "CSS framework", "isCorrect": false },
+
     {
       "questionId": 11,
-      "answerLabel": "Communication between parent and child components in Angular can be achieved through input properties and output events.",
+      "answerLabel": "Routes array passed to RouterModule",
       "isCorrect": true
     },
     {
       "questionId": 11,
-      "answerLabel": "Communication between parent and child components in Angular is not possible.",
+      "answerLabel": "By editing index.html",
       "isCorrect": false
     },
     {
       "questionId": 11,
-      "answerLabel": "Communication between parent and child components in Angular can only be done using services.",
+      "answerLabel": "By creating a service",
       "isCorrect": false
     },
     {
       "questionId": 11,
-      "answerLabel": "Communication between parent and child components in Angular can only be done using event binding.",
+      "answerLabel": "By installing a package",
+      "isCorrect": false
+    },
+
+    {
+      "questionId": 12,
+      "answerLabel": "Using Router.navigate or navigateByUrl",
+      "isCorrect": true
+    },
+    {
+      "questionId": 12,
+      "answerLabel": "Editing the address bar only",
       "isCorrect": false
     },
     {
       "questionId": 12,
-      "answerLabel": "A service in Angular is a class that provides specific functionality and can be injected into components and other services.",
-      "isCorrect": true
-    },
-    {
-      "questionId": 12,
-      "answerLabel": "A service in Angular is a type of component.",
+      "answerLabel": "Reloading the page",
       "isCorrect": false
     },
     {
       "questionId": 12,
-      "answerLabel": "A service in Angular is a type of directive.",
+      "answerLabel": "Calling HttpClient",
       "isCorrect": false
     },
-    {
-      "questionId": 12,
-      "answerLabel": "A service in Angular is a type of module.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 13,
-      "answerLabel": "The ngFor directive in Angular is used for iterating over a list of items and rendering them in the template.",
-      "isCorrect": true
-    },
-    {
-      "questionId": 13,
-      "answerLabel": "The ngFor directive in Angular is used for defining routes.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 13,
-      "answerLabel": "The ngFor directive in Angular is used for handling HTTP requests.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 13,
-      "answerLabel": "The ngFor directive in Angular is used for event binding.",
-      "isCorrect": false
-    },
+
+    { "questionId": 13, "answerLabel": "HttpClient", "isCorrect": true },
+    { "questionId": 13, "answerLabel": "Router", "isCorrect": false },
+    { "questionId": 13, "answerLabel": "FormsModule", "isCorrect": false },
+    { "questionId": 13, "answerLabel": "NgZone", "isCorrect": false },
+
     {
       "questionId": 14,
-      "answerLabel": "Modules in Angular are used to organize the application into cohesive blocks of functionality.",
+      "answerLabel": "http.get('url') returns Observable",
       "isCorrect": true
     },
     {
       "questionId": 14,
-      "answerLabel": "Modules in Angular are used for data binding.",
+      "answerLabel": "http.fetch('url')",
       "isCorrect": false
     },
     {
       "questionId": 14,
-      "answerLabel": "Modules in Angular are used for routing configuration.",
+      "answerLabel": "Router.get('url')",
       "isCorrect": false
     },
-    {
-      "questionId": 14,
-      "answerLabel": "Modules in Angular are used for handling HTTP requests.",
-      "isCorrect": false
-    },
+    { "questionId": 14, "answerLabel": "Zone.get('url')", "isCorrect": false },
+
     {
       "questionId": 15,
-      "answerLabel": "Angular CLI's 'ng serve' command is used to compile and serve an Angular application locally for development purposes.",
+      "answerLabel": "In subscribe or via async pipe",
       "isCorrect": true
     },
     {
       "questionId": 15,
-      "answerLabel": "Angular CLI's 'ng serve' command is used to deploy an Angular application to a production server.",
+      "answerLabel": "In constructor only",
       "isCorrect": false
     },
-    {
-      "questionId": 15,
-      "answerLabel": "Angular CLI's 'ng serve' command is used for data binding.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 15,
-      "answerLabel": "Angular CLI's 'ng serve' command is used for event binding.",
-      "isCorrect": false
-    },
+    { "questionId": 15, "answerLabel": "In styles.css", "isCorrect": false },
+    { "questionId": 15, "answerLabel": "In angular.json", "isCorrect": false },
+
     {
       "questionId": 16,
-      "answerLabel": "Angular's two-way data binding combines property binding and event binding to automatically keep the view and the component data in sync.",
+      "answerLabel": "A template data transformer",
       "isCorrect": true
     },
+    { "questionId": 16, "answerLabel": "A router link", "isCorrect": false },
+    { "questionId": 16, "answerLabel": "A HTTP header", "isCorrect": false },
     {
       "questionId": 16,
-      "answerLabel": "Angular's two-way data binding is used for routing configuration.",
+      "answerLabel": "A component style",
       "isCorrect": false
     },
+
+    { "questionId": 17, "answerLabel": "date", "isCorrect": true },
+    { "questionId": 17, "answerLabel": "async", "isCorrect": false },
+    { "questionId": 17, "answerLabel": "json", "isCorrect": false },
+    { "questionId": 17, "answerLabel": "uppercase", "isCorrect": false },
+
     {
-      "questionId": 16,
-      "answerLabel": "Angular's two-way data binding is used for dependency injection.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 16,
-      "answerLabel": "Angular's two-way data binding is used for handling HTTP requests.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 17,
-      "answerLabel": "Angular's trackBy function is used to improve the performance of ngFor by identifying unique items in the iteration.",
+      "questionId": 18,
+      "answerLabel": "Use @Pipe and implement transform",
       "isCorrect": true
     },
-    {
-      "questionId": 17,
-      "answerLabel": "Angular's trackBy function is used for defining routes.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 17,
-      "answerLabel": "Angular's trackBy function is used for event binding.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 17,
-      "answerLabel": "Angular's trackBy function is used for dependency injection.",
-      "isCorrect": false
-    },
+    { "questionId": 18, "answerLabel": "Create a service", "isCorrect": false },
+    { "questionId": 18, "answerLabel": "Edit index.html", "isCorrect": false },
     {
       "questionId": 18,
-      "answerLabel": "HTTP requests in Angular can be handled using the HttpClient module to send requests and receive responses from a server.",
-      "isCorrect": true
-    },
-    {
-      "questionId": 18,
-      "answerLabel": "HTTP requests in Angular can be handled using the ngFor directive.",
+      "answerLabel": "Install a package",
       "isCorrect": false
     },
-    {
-      "questionId": 18,
-      "answerLabel": "HTTP requests in Angular can be handled using dependency injection.",
-      "isCorrect": false
-    },
-    {
-      "questionId": 18,
-      "answerLabel": "HTTP requests in Angular can be handled using the trackBy function.",
-      "isCorrect": false
-    },
+
     {
       "questionId": 19,
-      "answerLabel": "Angular pipes are used for transforming and formatting data in templates.",
+      "answerLabel": "Load modules on demand",
       "isCorrect": true
     },
     {
       "questionId": 19,
-      "answerLabel": "Angular pipes are used for defining routes.",
+      "answerLabel": "Bind events automatically",
       "isCorrect": false
     },
+    { "questionId": 19, "answerLabel": "Format currency", "isCorrect": false },
     {
       "questionId": 19,
-      "answerLabel": "Angular pipes are used for event binding.",
+      "answerLabel": "Change CSS at runtime",
       "isCorrect": false
     },
-    {
-      "questionId": 19,
-      "answerLabel": "Angular pipes are used for dependency injection.",
-      "isCorrect": false
-    },
+
     {
       "questionId": 20,
-      "answerLabel": "Lazy loading in Angular is a technique for loading modules only when they are needed, improving application performance.",
+      "answerLabel": "ngFor diffing performance",
       "isCorrect": true
     },
+    { "questionId": 20, "answerLabel": "HTTP throughput", "isCorrect": false },
     {
       "questionId": 20,
-      "answerLabel": "Lazy loading in Angular is a technique for handling HTTP requests.",
+      "answerLabel": "Router preloading",
       "isCorrect": false
     },
+    { "questionId": 20, "answerLabel": "CSS rendering", "isCorrect": false },
+
     {
-      "questionId": 20,
-      "answerLabel": "Lazy loading in Angular is a technique for event binding.",
+      "questionId": 21,
+      "answerLabel": "Optimizes change detection",
+      "isCorrect": true
+    },
+    { "questionId": 21, "answerLabel": "Disables routing", "isCorrect": false },
+    {
+      "questionId": 21,
+      "answerLabel": "Forces full re-renders",
       "isCorrect": false
     },
-    {
-      "questionId": 20,
-      "answerLabel": "Lazy loading in Angular is a technique for defining routes.",
-      "isCorrect": false
-    }
+    { "questionId": 21, "answerLabel": "Removes zone.js", "isCorrect": false }
   ],
   "users": [
     {
