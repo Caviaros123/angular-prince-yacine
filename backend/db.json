@@ -3,420 +3,788 @@
     {
       "id": 1,
       "categoryId": 1,
-      "questionLabel": "What is a component in Angular?"
+      "questionLabel": "Qu'est-ce qu'un composant en Angular ?"
     },
     {
       "id": 2,
       "categoryId": 1,
-      "questionLabel": "What is a directive in Angular?"
+      "questionLabel": "Qu'est-ce qu'une directive en Angular ?"
     },
     {
       "id": 3,
       "categoryId": 1,
-      "questionLabel": "What is a module in Angular?"
+      "questionLabel": "Qu'est-ce qu'un module en Angular ?"
     },
-
     {
       "id": 4,
-      "categoryId": 2,
-      "questionLabel": "What is data binding in Angular?"
+      "categoryId": 1,
+      "questionLabel": "Quel décorateur définit un composant Angular ?"
     },
-    { "id": 5, "categoryId": 2, "questionLabel": "What is property binding?" },
-    { "id": 6, "categoryId": 2, "questionLabel": "What is event binding?" },
+    {
+      "id": 5,
+      "categoryId": 1,
+      "questionLabel": "À quoi servent les hooks de cycle de vie ?"
+    },
 
     {
+      "id": 6,
+      "categoryId": 2,
+      "questionLabel": "Qu'est-ce que le data binding en Angular ?"
+    },
+    {
       "id": 7,
-      "categoryId": 3,
-      "questionLabel": "What is Angular CLI used for?"
+      "categoryId": 2,
+      "questionLabel": "Qu'est-ce que le property binding ?"
     },
     {
       "id": 8,
-      "categoryId": 3,
-      "questionLabel": "Which command generates a component?"
+      "categoryId": 2,
+      "questionLabel": "Qu'est-ce que l'event binding ?"
     },
     {
       "id": 9,
-      "categoryId": 3,
-      "questionLabel": "Which command starts the dev server?"
+      "categoryId": 2,
+      "questionLabel": "Qu'est-ce que l'interpolation dans les templates Angular ?"
+    },
+    {
+      "id": 10,
+      "categoryId": 2,
+      "questionLabel": "Comment activer le two-way data binding ?"
     },
 
     {
-      "id": 10,
-      "categoryId": 4,
-      "questionLabel": "What is the Angular router?"
-    },
-    {
       "id": 11,
-      "categoryId": 4,
-      "questionLabel": "How do you define a route?"
+      "categoryId": 3,
+      "questionLabel": "À quoi sert l'Angular CLI ?"
     },
     {
       "id": 12,
-      "categoryId": 4,
-      "questionLabel": "How to navigate programmatically?"
+      "categoryId": 3,
+      "questionLabel": "Quelle commande génère un composant ?"
     },
-
     {
       "id": 13,
-      "categoryId": 5,
-      "questionLabel": "Which Angular service handles HTTP requests?"
+      "categoryId": 3,
+      "questionLabel": "Quelle commande démarre le serveur de développement ?"
     },
     {
       "id": 14,
-      "categoryId": 5,
-      "questionLabel": "How to perform a GET with HttpClient?"
+      "categoryId": 3,
+      "questionLabel": "Quelle commande construit un bundle de production ?"
     },
     {
       "id": 15,
-      "categoryId": 5,
-      "questionLabel": "Where do you handle an Observable response?"
+      "categoryId": 3,
+      "questionLabel": "Quelle commande génère un service ?"
     },
 
     {
       "id": 16,
-      "categoryId": 6,
-      "questionLabel": "What is a pipe in Angular?"
+      "categoryId": 4,
+      "questionLabel": "Qu'est-ce que le routeur Angular ?"
     },
     {
       "id": 17,
-      "categoryId": 6,
-      "questionLabel": "Which built-in pipe formats dates?"
+      "categoryId": 4,
+      "questionLabel": "Comment définit-on une route ?"
     },
     {
       "id": 18,
-      "categoryId": 6,
-      "questionLabel": "How to create a custom pipe?"
+      "categoryId": 4,
+      "questionLabel": "Comment naviguer par programmation ?"
     },
-
-    { "id": 19, "categoryId": 7, "questionLabel": "What is lazy loading?" },
+    {
+      "id": 19,
+      "categoryId": 4,
+      "questionLabel": "Comment lire un paramètre de route dans un composant ?"
+    },
     {
       "id": 20,
-      "categoryId": 7,
-      "questionLabel": "What does trackBy improve?"
+      "categoryId": 4,
+      "questionLabel": "Quelle route correspond à tous les chemins non appariés ?"
     },
+
     {
       "id": 21,
+      "categoryId": 5,
+      "questionLabel": "Quel service Angular gère les requêtes HTTP ?"
+    },
+    {
+      "id": 22,
+      "categoryId": 5,
+      "questionLabel": "Comment effectuer un GET avec HttpClient ?"
+    },
+    {
+      "id": 23,
+      "categoryId": 5,
+      "questionLabel": "Où traiter la réponse d'un Observable ?"
+    },
+    {
+      "id": 24,
+      "categoryId": 5,
+      "questionLabel": "À quoi sert un intercepteur HTTP ?"
+    },
+    {
+      "id": 25,
+      "categoryId": 5,
+      "questionLabel": "Comment envoyer une requête POST avec HttpClient ?"
+    },
+
+    {
+      "id": 26,
+      "categoryId": 6,
+      "questionLabel": "Qu'est-ce qu'une pipe en Angular ?"
+    },
+    {
+      "id": 27,
+      "categoryId": 6,
+      "questionLabel": "Quelle pipe intégrée formate les dates ?"
+    },
+    {
+      "id": 28,
+      "categoryId": 6,
+      "questionLabel": "Comment créer une pipe personnalisée ?"
+    },
+    {
+      "id": 29,
+      "categoryId": 6,
+      "questionLabel": "Pipe pure vs impure : quelle différence ?"
+    },
+    {
+      "id": 30,
+      "categoryId": 6,
+      "questionLabel": "Où déclare-t-on une pipe personnalisée pour pouvoir l'utiliser ?"
+    },
+
+    {
+      "id": 31,
       "categoryId": 7,
-      "questionLabel": "What is ChangeDetectionStrategy.OnPush?"
+      "questionLabel": "Qu'est-ce que le lazy loading ?"
+    },
+    {
+      "id": 32,
+      "categoryId": 7,
+      "questionLabel": "Que permet d'améliorer trackBy ?"
+    },
+    {
+      "id": 33,
+      "categoryId": 7,
+      "questionLabel": "Qu'est-ce que ChangeDetectionStrategy.OnPush ?"
+    },
+    {
+      "id": 34,
+      "categoryId": 7,
+      "questionLabel": "Quels paramètres trackBy reçoit-il ?"
+    },
+    {
+      "id": 35,
+      "categoryId": 7,
+      "questionLabel": "Que fait PreloadAllModules ?"
     }
   ],
   "answers": [
     {
       "questionId": 1,
-      "answerLabel": "A reusable building block for the UI",
+      "answerLabel": "Un bloc réutilisable de l'interface utilisateur",
       "isCorrect": true
     },
-    { "questionId": 1, "answerLabel": "A CSS class", "isCorrect": false },
-    { "questionId": 1, "answerLabel": "A database table", "isCorrect": false },
-    { "questionId": 1, "answerLabel": "A HTTP client", "isCorrect": false },
+    { "questionId": 1, "answerLabel": "Une classe CSS", "isCorrect": false },
+    {
+      "questionId": 1,
+      "answerLabel": "Une table de base de données",
+      "isCorrect": false
+    },
+    { "questionId": 1, "answerLabel": "Un client HTTP", "isCorrect": false },
 
     {
       "questionId": 2,
-      "answerLabel": "A marker on DOM to change behavior",
+      "answerLabel": "Un marqueur sur le DOM pour modifier le comportement",
       "isCorrect": true
     },
-    { "questionId": 2, "answerLabel": "A routing config", "isCorrect": false },
-    { "questionId": 2, "answerLabel": "A template file", "isCorrect": false },
-    { "questionId": 2, "answerLabel": "A build tool", "isCorrect": false },
+    {
+      "questionId": 2,
+      "answerLabel": "Une configuration de routage",
+      "isCorrect": false
+    },
+    {
+      "questionId": 2,
+      "answerLabel": "Un fichier de template",
+      "isCorrect": false
+    },
+    { "questionId": 2, "answerLabel": "Un outil de build", "isCorrect": false },
 
     {
       "questionId": 3,
-      "answerLabel": "A way to group related features",
+      "answerLabel": "Une manière de regrouper des fonctionnalités",
       "isCorrect": true
     },
     {
       "questionId": 3,
-      "answerLabel": "A CSS preprocessor",
+      "answerLabel": "Un préprocesseur CSS",
       "isCorrect": false
     },
-    { "questionId": 3, "answerLabel": "A backend API", "isCorrect": false },
+    { "questionId": 3, "answerLabel": "Une API backend", "isCorrect": false },
     {
       "questionId": 3,
-      "answerLabel": "A json-server command",
+      "answerLabel": "Une commande json-server",
       "isCorrect": false
     },
 
-    {
-      "questionId": 4,
-      "answerLabel": "Sync data between component and view",
-      "isCorrect": true
-    },
-    {
-      "questionId": 4,
-      "answerLabel": "Define routes in app",
-      "isCorrect": false
-    },
-    {
-      "questionId": 4,
-      "answerLabel": "Inject dependencies",
-      "isCorrect": false
-    },
-    { "questionId": 4, "answerLabel": "Serve the app", "isCorrect": false },
+    { "questionId": 4, "answerLabel": "@Component", "isCorrect": true },
+    { "questionId": 4, "answerLabel": "@NgModule", "isCorrect": false },
+    { "questionId": 4, "answerLabel": "@Injectable", "isCorrect": false },
+    { "questionId": 4, "answerLabel": "@Directive", "isCorrect": false },
 
     {
       "questionId": 5,
-      "answerLabel": "Bind a value to an element property",
+      "answerLabel": "Réagir à l'initialisation, aux changements et à la destruction d’un composant",
       "isCorrect": true
     },
     {
       "questionId": 5,
-      "answerLabel": "Bind to event output",
+      "answerLabel": "Gérer uniquement les gardes de routage",
       "isCorrect": false
     },
     {
       "questionId": 5,
-      "answerLabel": "Bind CSS class only",
+      "answerLabel": "Compiler le TypeScript au build",
       "isCorrect": false
     },
-    { "questionId": 5, "answerLabel": "Define a module", "isCorrect": false },
+    {
+      "questionId": 5,
+      "answerLabel": "Appliquer du CSS global à l’exécution",
+      "isCorrect": false
+    },
 
     {
       "questionId": 6,
-      "answerLabel": "Listen to user actions like click",
+      "answerLabel": "Synchroniser les données entre le composant et la vue",
       "isCorrect": true
     },
     {
       "questionId": 6,
-      "answerLabel": "Load modules lazily",
+      "answerLabel": "Définir les routes de l'application",
       "isCorrect": false
     },
-    { "questionId": 6, "answerLabel": "Format dates", "isCorrect": false },
     {
       "questionId": 6,
-      "answerLabel": "Start the dev server",
+      "answerLabel": "Injecter des dépendances",
+      "isCorrect": false
+    },
+    {
+      "questionId": 6,
+      "answerLabel": "Servir l'application",
       "isCorrect": false
     },
 
     {
       "questionId": 7,
-      "answerLabel": "Scaffold/build/test Angular apps",
+      "answerLabel": "Lier une valeur à une propriété d’élément",
       "isCorrect": true
     },
     {
       "questionId": 7,
-      "answerLabel": "Run database migrations",
+      "answerLabel": "Se lier à la sortie d’un événement",
       "isCorrect": false
     },
-    { "questionId": 7, "answerLabel": "Start Node REPL", "isCorrect": false },
-    { "questionId": 7, "answerLabel": "Format CSS", "isCorrect": false },
+    {
+      "questionId": 7,
+      "answerLabel": "Lier uniquement une classe CSS",
+      "isCorrect": false
+    },
+    { "questionId": 7, "answerLabel": "Définir un module", "isCorrect": false },
 
     {
       "questionId": 8,
+      "answerLabel": "Écouter des actions utilisateur comme click",
+      "isCorrect": true
+    },
+    {
+      "questionId": 8,
+      "answerLabel": "Charger des modules paresseusement",
+      "isCorrect": false
+    },
+    {
+      "questionId": 8,
+      "answerLabel": "Formater des dates",
+      "isCorrect": false
+    },
+    {
+      "questionId": 8,
+      "answerLabel": "Démarrer le serveur de dev",
+      "isCorrect": false
+    },
+
+    {
+      "questionId": 9,
+      "answerLabel": "Intégrer des expressions avec {{ }} dans le template",
+      "isCorrect": true
+    },
+    {
+      "questionId": 9,
+      "answerLabel": "Se lier aux événements du DOM comme (click)",
+      "isCorrect": false
+    },
+    {
+      "questionId": 9,
+      "answerLabel": "Configurer des liens de routeur",
+      "isCorrect": false
+    },
+    {
+      "questionId": 9,
+      "answerLabel": "Déclarer des modules Angular",
+      "isCorrect": false
+    },
+
+    {
+      "questionId": 10,
+      "answerLabel": "Utiliser [(ngModel)] de FormsModule",
+      "isCorrect": true
+    },
+    {
+      "questionId": 10,
+      "answerLabel": "Utiliser uniquement [value]",
+      "isCorrect": false
+    },
+    {
+      "questionId": 10,
+      "answerLabel": "Utiliser uniquement (input)",
+      "isCorrect": false
+    },
+    { "questionId": 10, "answerLabel": "Utiliser *ngFor", "isCorrect": false },
+
+    {
+      "questionId": 11,
+      "answerLabel": "Générer, construire et tester des applications Angular",
+      "isCorrect": true
+    },
+    {
+      "questionId": 11,
+      "answerLabel": "Exécuter des migrations de base de données",
+      "isCorrect": false
+    },
+    {
+      "questionId": 11,
+      "answerLabel": "Démarrer un REPL Node",
+      "isCorrect": false
+    },
+    { "questionId": 11, "answerLabel": "Formater du CSS", "isCorrect": false },
+
+    {
+      "questionId": 12,
       "answerLabel": "ng generate component my-comp",
       "isCorrect": true
     },
     {
-      "questionId": 8,
+      "questionId": 12,
       "answerLabel": "ng serve component",
       "isCorrect": false
     },
     {
-      "questionId": 8,
+      "questionId": 12,
       "answerLabel": "ng start component",
       "isCorrect": false
     },
     {
-      "questionId": 8,
+      "questionId": 12,
       "answerLabel": "ng build component",
       "isCorrect": false
     },
 
-    { "questionId": 9, "answerLabel": "ng serve", "isCorrect": true },
-    { "questionId": 9, "answerLabel": "ng run", "isCorrect": false },
-    { "questionId": 9, "answerLabel": "ng start", "isCorrect": false },
-    { "questionId": 9, "answerLabel": "ng dev", "isCorrect": false },
-
-    {
-      "questionId": 10,
-      "answerLabel": "Library for navigating between views",
-      "isCorrect": true
-    },
-    { "questionId": 10, "answerLabel": "HTTP client", "isCorrect": false },
-    { "questionId": 10, "answerLabel": "State manager", "isCorrect": false },
-    { "questionId": 10, "answerLabel": "CSS framework", "isCorrect": false },
-
-    {
-      "questionId": 11,
-      "answerLabel": "Routes array passed to RouterModule",
-      "isCorrect": true
-    },
-    {
-      "questionId": 11,
-      "answerLabel": "By editing index.html",
-      "isCorrect": false
-    },
-    {
-      "questionId": 11,
-      "answerLabel": "By creating a service",
-      "isCorrect": false
-    },
-    {
-      "questionId": 11,
-      "answerLabel": "By installing a package",
-      "isCorrect": false
-    },
-
-    {
-      "questionId": 12,
-      "answerLabel": "Using Router.navigate or navigateByUrl",
-      "isCorrect": true
-    },
-    {
-      "questionId": 12,
-      "answerLabel": "Editing the address bar only",
-      "isCorrect": false
-    },
-    {
-      "questionId": 12,
-      "answerLabel": "Reloading the page",
-      "isCorrect": false
-    },
-    {
-      "questionId": 12,
-      "answerLabel": "Calling HttpClient",
-      "isCorrect": false
-    },
-
-    { "questionId": 13, "answerLabel": "HttpClient", "isCorrect": true },
-    { "questionId": 13, "answerLabel": "Router", "isCorrect": false },
-    { "questionId": 13, "answerLabel": "FormsModule", "isCorrect": false },
-    { "questionId": 13, "answerLabel": "NgZone", "isCorrect": false },
+    { "questionId": 13, "answerLabel": "ng serve", "isCorrect": true },
+    { "questionId": 13, "answerLabel": "ng run", "isCorrect": false },
+    { "questionId": 13, "answerLabel": "ng start", "isCorrect": false },
+    { "questionId": 13, "answerLabel": "ng dev", "isCorrect": false },
 
     {
       "questionId": 14,
-      "answerLabel": "http.get('url') returns Observable",
+      "answerLabel": "ng build --configuration production",
+      "isCorrect": true
+    },
+    { "questionId": 14, "answerLabel": "ng serve --prod", "isCorrect": false },
+    { "questionId": 14, "answerLabel": "ng test --prod", "isCorrect": false },
+    { "questionId": 14, "answerLabel": "ng run build", "isCorrect": false },
+
+    {
+      "questionId": 15,
+      "answerLabel": "ng generate service my-svc",
       "isCorrect": true
     },
     {
-      "questionId": 14,
+      "questionId": 15,
+      "answerLabel": "ng new service my-svc",
+      "isCorrect": false
+    },
+    {
+      "questionId": 15,
+      "answerLabel": "ng add service my-svc",
+      "isCorrect": false
+    },
+    {
+      "questionId": 15,
+      "answerLabel": "ng make service my-svc",
+      "isCorrect": false
+    },
+
+    {
+      "questionId": 16,
+      "answerLabel": "Bibliothèque pour naviguer entre les vues",
+      "isCorrect": true
+    },
+    { "questionId": 16, "answerLabel": "Client HTTP", "isCorrect": false },
+    {
+      "questionId": 16,
+      "answerLabel": "Gestionnaire d’état",
+      "isCorrect": false
+    },
+    { "questionId": 16, "answerLabel": "Framework CSS", "isCorrect": false },
+
+    {
+      "questionId": 17,
+      "answerLabel": "Un tableau de routes passé à RouterModule",
+      "isCorrect": true
+    },
+    {
+      "questionId": 17,
+      "answerLabel": "En modifiant index.html",
+      "isCorrect": false
+    },
+    {
+      "questionId": 17,
+      "answerLabel": "En créant un service",
+      "isCorrect": false
+    },
+    {
+      "questionId": 17,
+      "answerLabel": "En installant un package",
+      "isCorrect": false
+    },
+
+    {
+      "questionId": 18,
+      "answerLabel": "Avec Router.navigate ou navigateByUrl",
+      "isCorrect": true
+    },
+    {
+      "questionId": 18,
+      "answerLabel": "En modifiant uniquement la barre d’adresse",
+      "isCorrect": false
+    },
+    {
+      "questionId": 18,
+      "answerLabel": "En rechargeant la page",
+      "isCorrect": false
+    },
+    {
+      "questionId": 18,
+      "answerLabel": "En appelant HttpClient",
+      "isCorrect": false
+    },
+
+    {
+      "questionId": 19,
+      "answerLabel": "Avec ActivatedRoute (paramMap/snapshot.paramMap)",
+      "isCorrect": true
+    },
+    {
+      "questionId": 19,
+      "answerLabel": "En lisant uniquement le localStorage",
+      "isCorrect": false
+    },
+    {
+      "questionId": 19,
+      "answerLabel": "En analysant window.location manuellement",
+      "isCorrect": false
+    },
+    {
+      "questionId": 19,
+      "answerLabel": "Avec RouterLink dans le template",
+      "isCorrect": false
+    },
+
+    {
+      "questionId": 20,
+      "answerLabel": "Une route avec path: \"**\"",
+      "isCorrect": true
+    },
+    {
+      "questionId": 20,
+      "answerLabel": "Une route avec path: \"\"",
+      "isCorrect": false
+    },
+    {
+      "questionId": 20,
+      "answerLabel": "Une route avec path: \":id\"",
+      "isCorrect": false
+    },
+    {
+      "questionId": 20,
+      "answerLabel": "Une route avec path: \"*.*\"",
+      "isCorrect": false
+    },
+
+    { "questionId": 21, "answerLabel": "HttpClient", "isCorrect": true },
+    { "questionId": 21, "answerLabel": "Router", "isCorrect": false },
+    { "questionId": 21, "answerLabel": "FormsModule", "isCorrect": false },
+    { "questionId": 21, "answerLabel": "NgZone", "isCorrect": false },
+
+    {
+      "questionId": 22,
+      "answerLabel": "http.get('url') renvoie un Observable",
+      "isCorrect": true
+    },
+    {
+      "questionId": 22,
       "answerLabel": "http.fetch('url')",
       "isCorrect": false
     },
     {
-      "questionId": 14,
+      "questionId": 22,
       "answerLabel": "Router.get('url')",
       "isCorrect": false
     },
-    { "questionId": 14, "answerLabel": "Zone.get('url')", "isCorrect": false },
+    { "questionId": 22, "answerLabel": "Zone.get('url')", "isCorrect": false },
 
     {
-      "questionId": 15,
-      "answerLabel": "In subscribe or via async pipe",
+      "questionId": 23,
+      "answerLabel": "Dans subscribe ou via l’async pipe",
       "isCorrect": true
     },
     {
-      "questionId": 15,
-      "answerLabel": "In constructor only",
+      "questionId": 23,
+      "answerLabel": "Uniquement dans le constructeur",
       "isCorrect": false
     },
-    { "questionId": 15, "answerLabel": "In styles.css", "isCorrect": false },
-    { "questionId": 15, "answerLabel": "In angular.json", "isCorrect": false },
-
+    { "questionId": 23, "answerLabel": "Dans styles.css", "isCorrect": false },
     {
-      "questionId": 16,
-      "answerLabel": "A template data transformer",
-      "isCorrect": true
-    },
-    { "questionId": 16, "answerLabel": "A router link", "isCorrect": false },
-    { "questionId": 16, "answerLabel": "A HTTP header", "isCorrect": false },
-    {
-      "questionId": 16,
-      "answerLabel": "A component style",
-      "isCorrect": false
-    },
-
-    { "questionId": 17, "answerLabel": "date", "isCorrect": true },
-    { "questionId": 17, "answerLabel": "async", "isCorrect": false },
-    { "questionId": 17, "answerLabel": "json", "isCorrect": false },
-    { "questionId": 17, "answerLabel": "uppercase", "isCorrect": false },
-
-    {
-      "questionId": 18,
-      "answerLabel": "Use @Pipe and implement transform",
-      "isCorrect": true
-    },
-    { "questionId": 18, "answerLabel": "Create a service", "isCorrect": false },
-    { "questionId": 18, "answerLabel": "Edit index.html", "isCorrect": false },
-    {
-      "questionId": 18,
-      "answerLabel": "Install a package",
+      "questionId": 23,
+      "answerLabel": "Dans angular.json",
       "isCorrect": false
     },
 
     {
-      "questionId": 19,
-      "answerLabel": "Load modules on demand",
+      "questionId": 24,
+      "answerLabel": "Inspecter/transformer les requêtes et réponses HTTP (ex. ajouter des en-têtes)",
       "isCorrect": true
     },
     {
-      "questionId": 19,
-      "answerLabel": "Bind events automatically",
+      "questionId": 24,
+      "answerLabel": "Définir les routes de l’application",
       "isCorrect": false
     },
-    { "questionId": 19, "answerLabel": "Format currency", "isCorrect": false },
     {
-      "questionId": 19,
-      "answerLabel": "Change CSS at runtime",
+      "questionId": 24,
+      "answerLabel": "Rendre les templates côté serveur",
+      "isCorrect": false
+    },
+    {
+      "questionId": 24,
+      "answerLabel": "Planifier manuellement la détection des changements",
       "isCorrect": false
     },
 
     {
-      "questionId": 20,
-      "answerLabel": "ngFor diffing performance",
+      "questionId": 25,
+      "answerLabel": "http.post('url', body)",
       "isCorrect": true
     },
-    { "questionId": 20, "answerLabel": "HTTP throughput", "isCorrect": false },
     {
-      "questionId": 20,
-      "answerLabel": "Router preloading",
+      "questionId": 25,
+      "answerLabel": "http.fetch('url', body)",
       "isCorrect": false
     },
-    { "questionId": 20, "answerLabel": "CSS rendering", "isCorrect": false },
+    {
+      "questionId": 25,
+      "answerLabel": "Router.post('url', body)",
+      "isCorrect": false
+    },
+    {
+      "questionId": 25,
+      "answerLabel": "Zone.post('url', body)",
+      "isCorrect": false
+    },
 
     {
-      "questionId": 21,
-      "answerLabel": "Optimizes change detection",
+      "questionId": 26,
+      "answerLabel": "Un transformateur de données pour le template",
       "isCorrect": true
     },
-    { "questionId": 21, "answerLabel": "Disables routing", "isCorrect": false },
     {
-      "questionId": 21,
-      "answerLabel": "Forces full re-renders",
+      "questionId": 26,
+      "answerLabel": "Un lien de routeur",
       "isCorrect": false
     },
-    { "questionId": 21, "answerLabel": "Removes zone.js", "isCorrect": false }
+    { "questionId": 26, "answerLabel": "Un en-tête HTTP", "isCorrect": false },
+    {
+      "questionId": 26,
+      "answerLabel": "Un style de composant",
+      "isCorrect": false
+    },
+
+    { "questionId": 27, "answerLabel": "date", "isCorrect": true },
+    { "questionId": 27, "answerLabel": "async", "isCorrect": false },
+    { "questionId": 27, "answerLabel": "json", "isCorrect": false },
+    { "questionId": 27, "answerLabel": "uppercase", "isCorrect": false },
+
+    {
+      "questionId": 28,
+      "answerLabel": "Utiliser @Pipe et implémenter transform",
+      "isCorrect": true
+    },
+    { "questionId": 28, "answerLabel": "Créer un service", "isCorrect": false },
+    {
+      "questionId": 28,
+      "answerLabel": "Modifier index.html",
+      "isCorrect": false
+    },
+    {
+      "questionId": 28,
+      "answerLabel": "Installer un package",
+      "isCorrect": false
+    },
+
+    {
+      "questionId": 29,
+      "answerLabel": "Pure se déclenche sur changement de référence d’entrée; impure à chaque détection de changements",
+      "isCorrect": true
+    },
+    {
+      "questionId": 29,
+      "answerLabel": "Pure seulement à l’init; impure seulement à la destruction",
+      "isCorrect": false
+    },
+    {
+      "questionId": 29,
+      "answerLabel": "Pure met à jour le DOM directement; impure via virtual DOM",
+      "isCorrect": false
+    },
+    {
+      "questionId": 29,
+      "answerLabel": "Pure requiert des providers; impure non",
+      "isCorrect": false
+    },
+
+    {
+      "questionId": 30,
+      "answerLabel": "Dans les declarations d’un module (ou la marquer standalone)",
+      "isCorrect": true
+    },
+    { "questionId": 30, "answerLabel": "Dans index.html", "isCorrect": false },
+    {
+      "questionId": 30,
+      "answerLabel": "Dans providers par défaut",
+      "isCorrect": false
+    },
+    {
+      "questionId": 30,
+      "answerLabel": "Dans angular.json",
+      "isCorrect": false
+    },
+
+    {
+      "questionId": 31,
+      "answerLabel": "Charger les modules à la demande",
+      "isCorrect": true
+    },
+    {
+      "questionId": 31,
+      "answerLabel": "Lier automatiquement les événements",
+      "isCorrect": false
+    },
+    {
+      "questionId": 31,
+      "answerLabel": "Formater une devise",
+      "isCorrect": false
+    },
+    {
+      "questionId": 31,
+      "answerLabel": "Modifier le CSS à l’exécution",
+      "isCorrect": false
+    },
+
+    {
+      "questionId": 32,
+      "answerLabel": "Les performances de différenciation de ngFor",
+      "isCorrect": true
+    },
+    { "questionId": 32, "answerLabel": "Le débit HTTP", "isCorrect": false },
+    {
+      "questionId": 32,
+      "answerLabel": "Le préchargement du routeur",
+      "isCorrect": false
+    },
+    { "questionId": 32, "answerLabel": "Le rendu CSS", "isCorrect": false },
+
+    {
+      "questionId": 33,
+      "answerLabel": "Optimise la détection des changements",
+      "isCorrect": true
+    },
+    {
+      "questionId": 33,
+      "answerLabel": "Désactive le routage",
+      "isCorrect": false
+    },
+    {
+      "questionId": 33,
+      "answerLabel": "Force des re-rendus complets",
+      "isCorrect": false
+    },
+    { "questionId": 33, "answerLabel": "Supprime zone.js", "isCorrect": false },
+
+    { "questionId": 34, "answerLabel": "(index, item)", "isCorrect": true },
+    {
+      "questionId": 34,
+      "answerLabel": "(item, previousItem)",
+      "isCorrect": false
+    },
+    { "questionId": 34, "answerLabel": "(itemOnly)", "isCorrect": false },
+    { "questionId": 34, "answerLabel": "(event, item)", "isCorrect": false },
+
+    {
+      "questionId": 35,
+      "answerLabel": "Précharge tous les modules lazy après stabilisation de l’app",
+      "isCorrect": true
+    },
+    {
+      "questionId": 35,
+      "answerLabel": "Désactive complètement le lazy loading",
+      "isCorrect": false
+    },
+    {
+      "questionId": 35,
+      "answerLabel": "Force le chargement immédiat de toutes les routes avant bootstrap",
+      "isCorrect": false
+    },
+    {
+      "questionId": 35,
+      "answerLabel": "Met en cache les requêtes HTTP par défaut",
+      "isCorrect": false
+    }
   ],
   "users": [
-    {
-      "id": "1199e",
-      "username": "admin",
-      "password": "admin"
-    },
-    {
-      "id": "b99e",
-      "username": "toto",
-      "password": "toto"
-    }
+    { "id": "1199e", "username": "admin", "password": "admin" },
+    { "id": "b99e", "username": "toto", "password": "toto" }
   ],
   "categories": [
     {
       "id": 1,
-      "name": "Fundamentaux",
+      "name": "Fondamentaux",
       "description": "Concepts de base d'Angular"
     },
     {
       "id": 2,
-      "name": "Data Binding",
+      "name": "Liaison de données",
       "description": "Interpolation, property et event binding"
     },
     {
       "id": 3,
-      "name": "CLI",
+      "name": "Interface en ligne de commande",
       "description": "Angular CLI et commandes associées"
     },
     {
       "id": 4,
-      "name": "Routing",
+      "name": "Routage",
       "description": "Navigation et configuration des routes"
     },
     { "id": 5, "name": "HTTP", "description": "HttpClient et requêtes" },

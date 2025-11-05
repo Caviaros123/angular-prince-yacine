@@ -1,4 +1,4 @@
-<section class="question_container" *ngFor="let content of quizContent; let i = index">
+<section class="question_container" *ngFor="let content of items; let i = index">
   <h4 class="question_label"><b>Question {{ i + 1 }} :</b> {{ content?.question }}</h4>
   <app-answer
     [answers]="content?.answers"

@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, Input, OnInit } from '@angular/core';
 import { QuizService } from "../../shared/services/quiz.service";
 
 @Component({
@@ -8,7 +8,7 @@ import { QuizService } from "../../shared/services/quiz.service";
   standalone: false
 })
 export class QuestionComponent implements OnInit {
-  quizContent: any[] = this.quizService.quizContent;
+  @Input() items: any[] = [];
 
   constructor(private quizService: QuizService) { }
 

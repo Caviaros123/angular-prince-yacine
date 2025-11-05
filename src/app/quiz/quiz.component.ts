@@ -2,6 +2,7 @@ import { Component, OnInit } from '@angular/core';
 import { ActivatedRoute, Router } from "@angular/router";
 import { QuizService } from "../shared/services/quiz.service";
 import { CategoriesService } from "../shared/services/categories.service";
+import { QuizStore } from "../shared/state/quiz.store";
 
 @Component({
   selector: 'app-quiz',
@@ -14,12 +15,15 @@ export class QuizComponent implements OnInit {
   playerName = '';
   categoryId: number | null = null;
   categoryLabel = '';
+  quizContent$ = this.quizStore.quizContent$;
+  isLoading$ = this.quizStore.isLoading$;
 
   constructor(
     private quizService: QuizService,
     private router: Router,
     private route: ActivatedRoute,
-    private categoriesService: CategoriesService
+    private categoriesService: CategoriesService,
+    private quizStore: QuizStore
   ) { }
 
   ngOnInit(): void {
@@ -27,8 +31,8 @@ export class QuizComponent implements OnInit {
       this.quizService.playerName = params['playerName'];
       this.playerName = params['playerName'];
       this.categoryId = params['categoryId'] ? Number(params['categoryId']) : null;
-      this.quizService.resetQuiz();
-      this.quizService.getQuizContent(this.categoryId != null ? this.categoryId : undefined);
+      this.quizStore.setPlayerName(this.playerName);
+      this.quizStore.setCategory(this.categoryId);
       if (this.categoryId != null) {
         this.categoriesService.getCategoryById(this.categoryId).subscribe((res: any) => {
           const cat = Array.isArray(res) ? res[0] : res;
